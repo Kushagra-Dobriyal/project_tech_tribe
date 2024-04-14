@@ -1,8 +1,21 @@
-let loginBtn = document.querySelector(".btn");
+let loginInput = querySelector("#email").value;
+let loginPassword = querySelector("#password").value;
 
-loginBtn.addEventListener ("click",(event) =>{
-alert("You have succesfully logged in");
+addEventListener(("input"),(event) =>{
+  if( loginInput == admin@gmail.com && loginPassword == admin@password)
+    {
+    window.location.assing("firstpage.html");
+      alert("you have successfully logged in);
+            
+    }
+            else{
+              alert("Invalid credentials");
+              
+            }
 
+  
 });
+
+
 
 
