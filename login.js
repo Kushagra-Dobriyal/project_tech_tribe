@@ -1,11 +1,11 @@
-let loginInput = querySelector("#email").value;
-let loginPassword = querySelector("#password").value;
+let loginInput = querySelector("#email").href;
+let loginPassword = querySelector("#password").href;
 
 addEventListener(("input"),(event) =>{
-  if( loginInput == admin@gmail.com && loginPassword == admin@password)
+  if( loginInput == admingmail.com && loginPassword == adminpassword)
     {
-    window.location.assing("firstpage.html");
-      alert("you have successfully logged in);
+    Window.location.href="http://127.0.0.1:5500/hackathon/firstpage.html";
+      alert("you have successfully logged in");
             
     }
             else{
